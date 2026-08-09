@@ -1,24 +1,3 @@
-<div align="center">
-
-<!-- 🌈 Modern Gradient Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:4F46E5,100:9333EA&text=Dinesh+Barri+%7C+Portfolio+Website&fontColor=ffffff&fontSize=45&fontAlignY=35&desc=Modern+AI+Driven+Portfolio+Built+with+Precision&descAlignY=60&animation=fadeIn" />
-
-<!-- ✨ Typing Subtitle -->
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1200&color=8A2BE2&center=true&vCenter=true&width=700&lines=Full+Stack+Portfolio+Built+Using+React+%2B+Tailwind;Showcasing+Data+Science+%2C+Machine+Learning+%26+Analytics;End-to-End+Projects+%7C+Dashboards+%7C+Case+Studies;Interactive+Design+%7C+Clean+UI+%7C+Fast+Performance" />
-</p>
-
-<!-- 🔥 Highlight Badges -->
-
- <div align="center">
-<p align="center">
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/TailwindCSS-0EA5E9?style=for-the-badge&logo=tailwindcss&logoColor=white" />
-  <img src="https://img.shields.io/badge/EmailJS-F02E65?style=for-the-badge&logo=emailjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
-</p>
-
-</div>
 
 ---
 
