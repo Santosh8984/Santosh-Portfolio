@@ -47,10 +47,9 @@ This portfolio website is designed to **WOW** visitors with its premium aestheti
 ## 🖼️ Preview
 
 <div align="center">
- 
- [Portfolio_Website Preview](https://github.com/user-attachments/assets/4c0597d2-472e-4da1-8bb7-ffaf92cff2d2)
+
   <p>
-    <a href="https://dineshbarri-portfolio.vercel.app" target="_blank">
+    <a href="https://santosh-portfolio-zdnl.vercel.app/" target="_blank">
       🚀 View Live Demo
     </a>
   </p>
