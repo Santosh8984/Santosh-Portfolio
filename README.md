@@ -332,49 +332,18 @@ npm run deploy
 
 ---
 
-## 📊 Portfolio Projects Showcase
-
-This portfolio highlights various data science and analytics projects:
-
-### 🏨 **Ireland Hotel Analytics**
-- End-to-end data pipeline analyzing Irish hospitality market
-- Technologies: Python, SQL, Tableau, Netlify
-- [Live Demo](https://ireland-hotel-analytics.netlify.app/) | [GitHub](https://github.com/dineshbarri/ireland-hotel-pricing-ratings-analysis)
-
-### 🎥 **AI Video Factory**
-- Automated video creation with Google Veo3 and n8n
-- Technologies: AI, Automation, YouTube API, Google Drive
-- [GitHub](https://github.com/dineshbarri/AI-Video-Factory-Veo3-Automation-Pipeline)
-
-### 🏅 **Olympic Data Analytics Dashboard**
-- 120 years of Olympic history visualization (1896-2016)
-- Technologies: Power BI, Data Visualization
-- [GitHub](https://github.com/dineshbarri/Olympic-Data-Analytics-Dashboard-1896-2016-Power-BI-Insights)
-
-### 🤖 **Plemdo AI Enterprise Analytics**
-- WhatsApp to boardroom report in 60 seconds
-- Technologies: AI, n8n, WhatsApp API, Data Visualization
-- [GitHub](https://github.com/dineshbarri/Plemdo-AI-Enterprise-Analytics)
-
-### 🧙 **Harry Potter Data Analytics**
-- Interactive Tableau dashboard with book sales and trends
-- Technologies: Tableau, EDA, Data Visualization
-- [GitHub](https://github.com/dineshbarri/Wizarding-Analytics-Harry-Potter-Through-Data-)
-
-*...and many more on my [GitHub](https://github.com/dineshbarri?tab=repositories)!*
 
 ---
 
 ## 📫 Contact
 
-**Dinesh Barri**
+**Santosh Behera**
 
-- 📧 Email: [dineshbarri1997@gmail.com](mailto:dineshbarri1997@gmail.com)
-- 💼 LinkedIn: [linkedin.com/in/dinesh-barri](https://www.linkedin.com/in/dinesh-barri/)
-- 🐙 GitHub: [github.com/dineshbarri](https://github.com/dineshbarri)
-- 🌐 Portfolio: [dineshbarri.dev](https://dineshbarri.dev)
-- 📱 Phone: +353 89 203 3146
-- 📍 Location: Dublin, Ireland 🇮🇪
+- 📧 Email: [santosh.behera.data@gmail.com](mailto:santosh.behera.data@gmail.com)
+- 💼 LinkedIn: [https://www.linkedin.com/in/santosh-datanalyst/](https://www.linkedin.com/in/santosh-datanalyst/)
+- 🐙 GitHub: [https://github.com/Santosh8984](https://github.com/Santosh8984)
+- 📱 Phone: +91 8984799381
+- 📍 Location: India, Odisha Io
 
 ---
 

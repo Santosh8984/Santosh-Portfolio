@@ -16,10 +16,10 @@ export const Contact = () => {
 
     try {
       const result = await emailjs.sendForm(
-        'service_rus0kuj',
-        'template_tlvoipb',
+        'service_nqv4zek',
+        'template_igdq7hb',
         e.currentTarget,
-        'GucQZNTsN9ZVLCPg7'
+        'jZDjuBGhCgYBEaK4b'
       );
 
       if (result.text === 'OK') {
@@ -57,7 +57,7 @@ export const Contact = () => {
             Let's <span className="gradient-text">Connect</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Have a project in mind or want to discuss data science opportunities? I'd love to hear from you!
+            Have a project in mind or want to discuss Any opportunities? I'd love to hear from you!
           </p>
         </motion.div>
 
@@ -72,7 +72,7 @@ export const Contact = () => {
 
             <div className="space-y-6">
               <a
-                href="mailto:dineshbarri1997@gmail.com"
+                href="mailto:santosh.behera.data@gmail.com"
                 className="flex items-center gap-4 glass-card p-4 hover:border-primary/30 transition-all duration-300 group"
               >
                 <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
@@ -80,12 +80,12 @@ export const Contact = () => {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">Email</p>
-                  <p className="font-medium group-hover:text-primary transition-colors">dineshbarri1997@gmail.com</p>
+                  <p className="font-medium group-hover:text-primary transition-colors">santosh.behera.data@gmail.com</p>
                 </div>
               </a>
 
               <a
-                href="tel:+353892033146"
+                href="tel:+91 8984799381"
                 className="flex items-center gap-4 glass-card p-4 hover:border-primary/30 transition-all duration-300 group"
               >
                 <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
@@ -93,7 +93,7 @@ export const Contact = () => {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">Phone</p>
-                  <p className="font-medium group-hover:text-primary transition-colors">+353 89 203 3146</p>
+                  <p className="font-medium group-hover:text-primary transition-colors">+91 8984799381</p>
                 </div>
               </a>
 
@@ -103,7 +103,7 @@ export const Contact = () => {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">Location</p>
-                  <p className="font-medium">Dublin, Ireland 🇮🇪</p>
+                  <p className="font-medium">India, Odisha od</p>
                 </div>
               </div>
             </div>
@@ -112,10 +112,10 @@ export const Contact = () => {
             <div className="mt-8">
               <p className="text-sm text-muted-foreground mb-4">Connect on social media</p>
               <div className="flex gap-3">
-                <a href="https://www.linkedin.com/in/dinesh-barri/" target="_blank" rel="noopener noreferrer" className="social-icon">
+                <a href="https://www.linkedin.com/in/santosh-datanalyst/" target="_blank" rel="noopener noreferrer" className="social-icon">
                   <Linkedin size={20} />
                 </a>
-                <a href="https://github.com/dineshbarri" target="_blank" rel="noopener noreferrer" className="social-icon">
+                <a href="https://github.com/Santosh8984" target="_blank" rel="noopener noreferrer" className="social-icon">
                   <Github size={20} />
                 </a>
                 <a href="mailto:dineshbarri1997@gmail.com" className="social-icon">

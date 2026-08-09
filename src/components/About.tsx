@@ -1,23 +1,13 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
-import { TrendingUp, Brain, Code2, Trophy, Zap, Users } from 'lucide-react';
+import { TrendingUp, Brain,  Trophy,  Users, Database,BarChart3 } from 'lucide-react';
 
 const highlights = [
   {
     icon: TrendingUp,
     title: 'Data Analytics',
-    description: 'Transforming raw data into actionable insights through EDA, statistical modeling, and visualization.',
-  },
-  {
-    icon: Brain,
-    title: 'Machine Learning',
-    description: 'Building predictive models, ML pipelines, and deploying intelligent systems.',
-  },
-  {
-    icon: Code2,
-    title: 'Clean Code',
-    description: 'Writing maintainable, scalable code that stands the test of time',
+    description: 'Transforming raw data into actionable insights through EDA and visualization.',
   },
   {
     icon: Trophy,
@@ -25,10 +15,15 @@ const highlights = [
     description: 'Breaking down complex problems into scalable, efficient solutions.',
   },
   {
-    icon: Zap,
-    title: 'AI Agent Developer',
-    description: 'Designing and deploying AI agents & automations using n8n and RAG workflows to connect knowledge, LLMs, and business systems for automated decisioning.',
-  },
+  title: "SQL",
+  icon: Database,
+  description: "Advanced SQL queries and database optimization"
+},
+{
+  icon: BarChart3,
+  title: "Power BI",
+  description: "Building interactive dashboards using DAX, Power Query, and data visualization."
+},
   {
     icon: Users,
     title: 'Collaboration',
@@ -53,7 +48,7 @@ export const About = () => {
             About <span className="gradient-text">Me</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Crafting data-driven solutions & intelligent systems
+            Transforming Data into Actionable Business Insights
           </p>
         </motion.div>
 
@@ -68,10 +63,10 @@ export const About = () => {
             <h3 className="font-display text-xl font-semibold mb-4 gradient-text">Background</h3>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                With over 4 years of experience in <span className="text-foreground font-medium">Data Science and Data Analytics</span>, my career has been centered around turning data into clarity, intelligence, and real business value. I’ve worked across the full data lifecycle—exploring messy datasets, building ML models, creating dashboards, and developing automation systems that help teams work smarter. Over time, this naturally led me into <span className="text-primary font-medium">AI Agent development</span>, where I now build n8n workflows and RAG-powered assistants that combine domain knowledge with the capabilities of modern LLMs. For me, the most rewarding projects are the ones where analytics and AI come together to make someone’s work easier, faster, or more informed.
+                I enjoy working with data and turning complex information into clear, actionable insights that help businesses make better decisions. Through hands-on projects, I’ve built experience with SQL, Power BI, Excel, and Python, focusing on data cleaning, analysis, visualization, and interactive dashboard development. I’m passionate about solving real-world business problems with data and continuously improving my skills to build practical, impactful, and user-focused analytics solutions.
               </p>
               <p>
-                What motivates me is solving problems that don’t have obvious answers. <span className="text-primary font-medium">Competitive programming</span> shaped the way I think—break the challenge down, explore patterns, and build solutions that are both simple and scalable. Whether I’m designing a data pipeline, optimizing a model, or creating an AI-driven automation, I aim to deliver tools that feel reliable, intuitive, and genuinely helpful. I’m driven by continuous learning, practical impact, and the belief that well-designed data systems can meaningfully improve how people and teams make decisions.
+                I enjoy turning raw data into meaningful business insights through thoughtful analysis and intuitive visualizations. Using <span className="text-primary font-medium">Power BI</span>, <span className="text-primary font-medium">SQL</span>, <span className="text-primary font-medium">Excel</span>, and <span className="text-primary font-medium">Python</span>, I build dashboards and analytical solutions that help organizations monitor performance, uncover trends, and make data-driven decisions. I’m committed to continuous learning and focused on creating reliable, scalable, and impactful data solutions.
               </p>
             </div>
           </motion.div>

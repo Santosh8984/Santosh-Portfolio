@@ -16,12 +16,12 @@ const Index = () => {
   const [showAllCertifications, setShowAllCertifications] = useState(false);
 
   useEffect(() => {
-    document.title = 'Dinesh Barri | Data Analyst & Data Scientist Portfolio';
+    document.title = 'Santosh Behera | Data Analyst Portfolio';
 
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
       metaDescription.setAttribute('content',
-        'Portfolio of Dinesh Barri - Data Analyst, Data Scientist, and Codeforces Master based in Dublin, Ireland. Expertise in Python, SQL, Machine Learning, Tableau, Power BI, and competitive programming.'
+        'Portfolio of Santosh - a Data Analyst and Business Analyst skilled in Excel, SQL, Power BI, and Python, focused on turning data into actionable business insights.'
       );
     }
   }, []);

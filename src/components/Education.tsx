@@ -5,33 +5,23 @@ import { GraduationCap, Calendar, MapPin } from 'lucide-react';
 
 const educationData = [
   {
-    degree: 'MS in Data Science',
-    institution: 'Dublin Business School',
-    location: 'Dublin, Ireland',
-    period: 'Sep 2023 - Sep 2024',
-    // grade: 'Distinction', // Grade removed as per instruction
-    logo: 'DBS',
-    description: 'Comprehensive program covering machine learning, statistical analysis, data visualization, and applied data science methodologies.',
-    learnings: [
-      'Advanced machine learning and predictive modeling',
-      'Statistical analysis and hypothesis testing',
-      'Data visualization and storytelling with Tableau and Power BI',
-      'Big data processing and cloud computing'
-    ]
-  },
+  degree: 'Higher Secondary (12th), CHSE Odisha',
+  institution: 'Dhenkanal Autonomous College',
+  location: 'Dhenkanal, Odisha, India',
+  period: 'Aug 2020 - Jul 2022',
+  logo: 'DAC',
+  learnings: [],
+},
+
   {
-    degree: 'Bachelor of Technology - BTech, Computer Science',
-    institution: 'Gayatri Vidya Parishad College of Engineering (Autonomous)',
+    degree: 'Bachelor of Arts (B.A.)',
+    institution: 'Hindol College, Khajurita(Odisha)',
     location: 'India',
-    period: '2015 - 2019',
+    period: '2023 - 2026',
     // grade: '8.4/10', // Grade removed as per instruction
-    logo: 'GVP',
-    description: 'Strong foundation in computer science fundamentals and software development.',
+    logo: 'HCK',
+    
     learnings: [
-      'Strong foundations in data structures, algorithms, OS, DBMS',
-      'Hands-on software development experience',
-      'Object-oriented programming & application building',
-      'Problem-solving and algorithmic thinking'
     ]
   }
 ];
@@ -97,7 +87,7 @@ export const Education = () => {
                   {edu.description}
                 </p>
                 <div className="flex-1 flex flex-col justify-end">
-                  <p className="text-sm font-semibold text-foreground mb-1">Key Learnings:</p>
+                  <p className="text-sm font-semibold text-foreground mb-1"></p>
                   <ul className="space-y-2 mb-2">
                     {edu.learnings.map((learning, i) => (
                       <li key={i} className="flex items-start gap-2 text-sm text-muted-foreground">

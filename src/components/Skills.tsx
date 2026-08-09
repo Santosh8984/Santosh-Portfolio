@@ -5,31 +5,19 @@ import { useRef } from 'react';
 const skillCategories = [
   {
     title: 'Programming & Analytics',
-    skills: ['Python', 'Java', 'C++', 'C', 'JavaScript', 'TypeScript', 'R', 'SQL', 'Pandas', 'NumPy', 'Scikit-learn', 'SciPy', 'Statsmodels'],
-  },
-  {
-    title: 'AI Agents & Intelligent Automation',
-    skills: ['LLM Integrations', 'n8n Agent Development', 'RAG Pipelines', 'AI Automation', 'Knowledge Base Engineering'],
+    skills: ['Python', 'SQL', 'Pandas', 'NumPy', 'Scikit-learn'],
   },
   {
     title: 'Data Visualization & BI',
-    skills: ['Tableau', 'Power BI', 'Matplotlib', 'Seaborn', 'Plotly', 'Looker Studio', 'Excel Pivot Tables'],
-  },
-  {
-    title: 'Machine Learning & AI',
-    skills: ['Supervised ML', 'Unsupervised ML', 'Regression', 'Classification', 'Clustering', 'NLP', 'Deep Learning', 'PyTorch'],
+    skills: ['Tableau', 'Power BI', 'Matplotlib', 'Seaborn','Excel Pivot Tables'],
   },
   {
     title: 'Databases & Cloud',
-    skills: ['MySQL', 'PostgreSQL', 'SQL Server', 'MongoDB', 'AWS S3', 'AWS EC2', 'Microsoft Azure', 'Google Cloud'],
+    skills: ['MySQL', 'PostgreSQL', 'SQL Server','Microsoft fabric'],
   },
   {
     title: 'Tools & Platforms',
-    skills: ['Git/GitHub', 'Jupyter', 'VS Code', 'Docker', 'JIRA', 'Confluence', 'Trello', 'MS Visio', 'Lucidchart'],
-  },
-  {
-    title: 'Algorithms & Competitive Programming',
-    skills: ['Dynamic Programming', 'Greedy Algorithms', 'Data Structures', 'Time Complexity', 'Optimization', 'Problem Solving'],
+    skills: ['Git/GitHub', 'Jupyter', 'VS Code',  'JIRA', 'Canva'],
   },
 ];
 
@@ -50,7 +38,7 @@ export const Skills = () => {
             Skills & <span className="gradient-text">Expertise</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Technologies I've worked with in real-world projects and professional environments
+          Building data-driven solutions with modern analytics tools
           </p>
         </motion.div>
 

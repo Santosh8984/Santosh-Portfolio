@@ -5,77 +5,42 @@ import { ChevronDown } from 'lucide-react';
 
 const experiences = [
   {
-    title: 'Data Analyst',
-    company: 'Cognizant',
-    image: '/cognizant.png',
-    period: 'Jun 2019 - Jul 2023',
-    location: 'Hyderabad, India · On-site',
-    description:
-      'Delivered analytics solutions and automated reporting systems for Google Maps operations, driving real-time insights and operational efficiency across large-scale processes. Specialized in scalable dashboards, ETL automation, SQL analytics, and production reporting pipelines.',
+    title: 'Data Analyst Intership',
+    company: 'Deloitte',
+    image: '/Deloitte logo.jpg',
+    period: 'April 18, 2025',
+    location: 'virtual internship',
     achievements: [
-      'Built end-to-end analytics dashboards that reduced bug resolution time by 40% through automated alerts, SLO/ETA triggers, and structured monitoring.',
-      'Developed impact analysis frameworks for call operations, improving call-success accuracy by 25% and supporting a 15% increase in human-connect rates.',
-      'Automated ETL & data quality workflows using Python and SQL, reducing manual effort by 60% and improving data reliability.',
-      'Created performance intelligence dashboards featuring 25+ KPIs to streamline workforce planning and improve operational decision-making.',
-    ],
+  'Completed the Deloitte Data Analytics Virtual Job Simulation on Forage, gaining practical experience in data analysis and forensic technology.',
+  'Built an interactive Tableau dashboard to visualize business data and present actionable insights.',
+  'Used Microsoft Excel to clean, classify, analyze data, and derive business recommendations.'
+],
     technologies: [
-      'SQL',
-      'Python',
-      'Looker (PLX)',
-      'BigQuery',
-      'ETL Automation',
-      'Google Apps Script',
+      'Excel',
       'Power BI',
-      'GCP',
       'Data Quality & Monitoring',
-      'GenAI-assisted Automation',
     ],
   },
   {
-    title: 'Machine Learning Engineer Intern',
-    company: 'Atharvo',
-    image: '/atharvo.png',
-    period: 'Feb 2019 – Apr 2019',
-    location: 'Karnataka, India',
-    description:
-      'Developed and optimized machine learning solutions for real-world applications, including feature engineering, model evaluation, and scalable workflows to support data-driven decisions and improve performance metrics.',
+    title: 'Data analyst intership',
+    company: 'accenture',
+    image: '/Accenture Logo.jpg',
+    period: 'April 18th,	2025',
+    location: 'virtual internship',
     achievements: [
-      'Built and fine-tuned supervised learning models to increase prediction accuracy and stability.',
-      'Created robust data preprocessing flows for feature engineering and dataset transformation.',
-      'Collaborated with cross-functional teams to integrate ML outputs into usable workflows.',
-    ],
+  'Completed the Accenture Data Analytics and Visualization Virtual Experience Program on Forage.',
+  'Cleaned, modeled, and analyzed 7 datasets to identify content trends and support strategic business decisions.',
+  'Developed a PowerPoint presentation and video summary to communicate key insights and recommendations to stakeholders.',
+],
     technologies: [
-      'Python',
-      'Scikit-learn',
-      'Pandas',
-      'NumPy',
-      'Jupyter',
-      'Feature Engineering',
-      'Model Evaluation',
+      'COMMUNICATION',
+      'DATA MODELING',
+      'PRESENTATION SKILLS',
+      'PROJECT PLANNING',
+      'PUBLIC SPEAKING',
     ],
   },
-  {
-    title: 'Software Engineer',
-    company: 'HackerEarth',
-    image: '/hackerearth.png',
-    period: 'Mar 2017 – Feb 2019',
-    location: 'Bengaluru, Karnataka, India · Remote',
-    description:
-      'Developed algorithm-driven programming challenges and assessment content to support global technical hiring and competitive coding events. Focused on high-quality problem design and robustness validations.',
-    achievements: [
-      'Authored algorithmic problems across multiple difficulty levels for global contests.',
-      'Developed test suites with edge-case coverage and optimal execution constraints.',
-      'Improved problem quality metrics through clearer problem statements and reference solutions.',
-      'Scaled content creation that supported thousands of developers and hiring teams.',
-    ],
-    technologies: [
-      'Algorithms',
-      'Data Structures',
-      'Problem Design',
-      'Complexity Analysis',
-      'Competitive Programming',
-    ],
-  },
+    
 ];
 
 export const Experience = () => {
@@ -104,7 +69,7 @@ export const Experience = () => {
             Professional <span className="gradient-text">Journey</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            From data analytics to automation and ML-driven insights, here’s my experience delivering business value with scalable solutions.
+          Creating impactful data solutions that drive smarter business decisions
           </p>
         </motion.div>
 

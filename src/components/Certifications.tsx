@@ -13,105 +13,25 @@ interface Certification {
 }
 
 const certificationDescriptions: Record<string, { description: string[], logo: string }> = {
-  'Google Advanced Data Analytics Professional Certificate': {
-    description: [
-      'Advanced statistical analysis and regression modeling',
-      'Machine learning fundamentals and model building with Python'
-    ],
-    logo: '/logos/google.png'
-  },
-  'Google Data Analytics Professional Certificate': {
-    description: [
-      'Data cleaning, transformation, and visualization techniques',
-      'SQL queries and spreadsheet analysis for business insights'
-    ],
-    logo: '/logos/google.png'
-  },
-  'Microsoft Power BI Data Analyst Professional Certificate': {
-    description: [
-      'Creating interactive dashboards and reports',
-      'DAX formulas and data modeling for business analytics'
-    ],
-    logo: '/logos/microsoft.png'
-  },
-  'TensorFlow Developer Certificate (DeepLearning.AI)': {
-    description: [
-      'Building and training neural networks with TensorFlow',
-      'Computer vision and natural language processing applications'
-    ],
-    logo: '/logos/deeplearning.png'
-  },
-  'AWS Cloud Practitioner Essentials': {
-    description: [
-      'AWS cloud computing fundamentals and architecture',
-      'Core AWS services for storage, compute, and database'
-    ],
-    logo: '/logos/aws.png'
-  },
-  'Prepare Data for ML APIs on Google Cloud': {
-    description: [
-      'Data preprocessing and feature engineering for ML',
-      'Using Google Cloud AI APIs for predictions'
-    ],
-    logo: '/logos/google-cloud.png'
-  },
-  'Introduction to Generative AI': {
-    description: [
-      'Fundamentals of generative AI and large language models',
-      'AWS AI services and generative AI applications'
-    ],
-    logo: '/logos/aws.png'
-  },
-  'Introduction to Relational Databases (RDBMS)': {
-    description: [
-      'Database design principles and normalization',
-      'SQL fundamentals and relational database concepts'
-    ],
-    logo: '/logos/ibm.png'
-  },
-  'Python for Data Science, AI & Development': {
-    description: [
-      'Python programming for data manipulation and analysis',
-      'Libraries like Pandas, NumPy, and Matplotlib'
-    ],
-    logo: '/logos/ibm.png'
-  },
-  'Gemini for Data Scientists and Analysts': {
-    description: [
-      'Leveraging Gemini AI for data analysis workflows',
-      'AI-powered insights and automation techniques'
-    ],
-    logo: '/logos/google-cloud.png'
-  },
-  'Looker Studio Essentials': {
-    description: [
-      'Building interactive dashboards and data visualizations',
-      'Connecting data sources and creating compelling reports'
-    ],
-    logo: '/logos/google-cloud.png'
-  },
-  'SQL (Advanced)': {
+  'SQL (Intermediate)': {
     description: [
       'Complex query optimization and performance tuning',
       'Advanced joins, subqueries, and window functions'
     ],
-    logo: '/logos/hackerrank.png'
-  }
+    logo: '/logos/hackerearth.png'
+  },
+  'Deloitte Data Analytics Job Simulation': {
+  description: [
+    'Completed Deloitte Data Analytics Job Simulation through Forage',
+    'Analyzed business data and created interactive dashboards to deliver actionable insights'
+  ],
+  logo: '/logos/deloitte.jpg'
+}
 };
 
 const priorityOrder = [
-  'Google Advanced Data Analytics Professional Certificate',
-  'Google Data Analytics Professional Certificate',
-  'Microsoft Power BI Data Analyst Professional Certificate',
-  'TensorFlow Developer Certificate (DeepLearning.AI)',
-  'AWS Cloud Practitioner Essentials',
-  'Prepare Data for ML APIs on Google Cloud',
-  'Introduction to Generative AI',
-  'Introduction to Relational Databases (RDBMS)',
-  'Python for Data Science, AI & Development',
-  'Gemini for Data Scientists and Analysts',
-  'Looker Studio Essentials',
-  'SQL (Advanced)'
+  'SQL (Intermediate)',
+  'Deloitte Data Analytics Job Simulation',
 ];
 
 export const Certifications = ({ limit }: { limit?: number }) => {

@@ -45,7 +45,7 @@ export const Hero = () => {
           >
             <p className="text-primary font-medium mb-4 text-lg">Hi, I am</p>
             <h1 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-              Dinesh <span className="gradient-text">Barri</span>
+              Santosh <span className="gradient-text">Behera</span>
             </h1>
           </motion.div>
 
@@ -58,12 +58,11 @@ export const Hero = () => {
           >
             <TypeWriter
               words={[
-                'Data Analyst & Data Scientist',
-                'AI Agent Developer',
-                'Codeforces Master',
-                'ML Enthusiast',
+                'Data Analyst',
+                'business analyst',
                 'Dashboard Developer',
-                'Problem Solver'
+                'Problem Solver',
+                'SQL Developer'
               ]}
               className="text-primary font-semibold"
             />
@@ -75,9 +74,10 @@ export const Hero = () => {
             transition={{ duration: 0.6, delay: 0.5 }}
             className="text-muted-foreground mb-8 max-w-xl leading-relaxed"
           >
-            Based in Dublin, Ireland 🇮🇪.
+            Based in India,Odisha
             <br /><br />
-            I build intelligent data products—analytics pipelines, machine learning models, and n8n/RAG AI agents. My focus is on clean design, automation, and end-to-end systems that turn data into action. I enjoy breaking complex problems into simple, scalable solutions.
+            Data Analyst passionate about transforming complex datasets into clear, actionable insights. I specialize in Power BI, SQL, Excel, and Python to build interactive dashboards, automate reporting, and deliver business intelligence solutions that drive measurable business impact.
+
           </motion.p>
 
           {/* Social Links */}
@@ -87,13 +87,13 @@ export const Hero = () => {
             transition={{ duration: 0.6, delay: 0.6 }}
             className="flex gap-4 mb-10"
           >
-            <a href="https://github.com/dineshbarri" target="_blank" rel="noopener noreferrer" className="social-icon">
+            <a href="https://github.com/Santosh8984" target="_blank" rel="noopener noreferrer" className="social-icon">
               <Github size={20} />
             </a>
-            <a href="https://www.linkedin.com/in/dinesh-barri/" target="_blank" rel="noopener noreferrer" className="social-icon">
+            <a href="https://www.linkedin.com/in/santosh-datanalyst/" target="_blank" rel="noopener noreferrer" className="social-icon">
               <Linkedin size={20} />
             </a>
-            <a href="mailto:dineshbarri1997@gmail.com" className="social-icon">
+            <a href="mailto:santosh.behera.data@gmail.com" className="social-icon">
               <Mail size={20} />
             </a>
           </motion.div>
@@ -136,12 +136,11 @@ export const Hero = () => {
               transition={{ duration: 0.3 }}
               className="relative w-full h-full rounded-[2rem] overflow-hidden border-2 border-primary/30 shadow-2xl bg-card/50 backdrop-blur-sm cursor-pointer"
             >
-              <img
-                src="https://avatars.githubusercontent.com/u/28930465?v=4"
-                alt="Dinesh Barri"
-                className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
-              />
-
+             <img
+               src="https://avatars.githubusercontent.com/u/147737122?v=4"
+               alt="Santosh Behera"
+                 className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
+/>
               {/* Overlay Gradient */}
               <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent opacity-60" />
             </motion.div>
